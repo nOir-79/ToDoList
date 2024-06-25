@@ -83,7 +83,7 @@ public class TaskManager implements Serializable{
         {
             // LocalDateTime dateTime = task.getTime();
             // DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-            // String formattedDateTime = dateTime.format(formatter);
+            // String formattedDateTime = dateTime.format;
             writer.write(task.getTaskName()+"+"+task.getDetails()+"+"+task.getTime());
             writer.newLine();
         }
